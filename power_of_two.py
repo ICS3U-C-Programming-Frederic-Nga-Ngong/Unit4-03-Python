@@ -22,7 +22,7 @@ def main():
                 print("{}^2 = {}".format(counter, square_ans))
 
     except ValueError:
-        print("{} is not a valid integer. Please, enter a new one.")
+        print("{} is not a valid integer. Please, enter a new one.".format(usernum_str))
 
 
 print("Thanks for using the code")
